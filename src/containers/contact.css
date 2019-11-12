@@ -1,0 +1,51 @@
+#contact h2{
+    color: #000000;
+}
+
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+    margin-right: auto!important;
+    width: 60%;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+
+.btn-outline-primary {
+    color: #4fbfa8;
+    background-color: transparent;
+    background-image: none;
+    border-color: #4fbfa8;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #4fbfa8;
+    border-color: #4fbfa8;
+}
+
+.btn-outline-primary:focus, .btn-outline-primary.focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(79, 191, 168, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(79, 191, 168, 0.5);
+}
+
+.btn-outline-primary.disabled, .btn-outline-primary:disabled {
+    color: #4fbfa8;
+    background-color: transparent;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
+.show > .btn-outline-primary.dropdown-toggle {
+    color: #212529;
+    background-color: #4fbfa8;
+    border-color: #4fbfa8;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-primary.dropdown-toggle:focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(79, 191, 168, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(79, 191, 168, 0.5);
+}
+

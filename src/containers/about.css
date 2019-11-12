@@ -1,0 +1,86 @@
+.aws-logo-container {
+    float: left;
+    position: relative;
+}
+.aws-logo {
+    height: 56px;
+    width: 56px;
+}
+
+.aws-detail-container {
+    margin-left: 70px;
+    position: relative;
+}
+.t-16 {
+    font-size: 16px;
+}
+.t-bold {
+    font-weight: 600;
+}
+
+.t-14 {
+    font-size: 14px;
+}
+
+h4.certs {
+    color: #62c6b1;
+    margin-bottom: 15px;
+}
+
+.about-section .skill-item {
+    margin-bottom: 10px;
+}
+
+.about-section .progress-title {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 16px;
+}
+
+.about-section .progress {
+    height: 30px;
+    border-radius: 0;
+}
+
+.about-section .progress .progress-bar {
+    background: #4fbfa8;
+}
+
+.about-section .progress .progress-bar-skill1 {
+    background: #9adacd;
+}
+
+.about-section .progress .progress-bar-skill2 {
+    background: #87d3c4;
+}
+
+.about-section .progress .progress-bar-skill3 {
+    background: #74cdba;
+}
+
+.about-section .progress .progress-bar-skill4 {
+    background: #62c6b1;
+}
+
+#about h2.title {
+    display: inline-block;
+    font-size: 4.2rem;
+    font-weight: 100;
+    padding: 10px 0;
+    margin-bottom: 44px;
+    text-align: center;
+    border-bottom: solid 1px #ccc;
+    border-top: solid 1px #ccc;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.2;
+    color: #555;
+    margin-top: 80px;
+    letter-spacing: 0;
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+}

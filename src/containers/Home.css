@@ -1,13 +1,94 @@
-.Home .lander {
-    padding: 80px 0;
-    text-align: center;
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
 }
 
-.Home .lander h1 {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
+body, html {
+    height: 100%;
 }
 
-.Home .lander p {
-    color: #999;
+#intro {
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+
+    /* Background image is fixed in the viewport so that it doesn't move when
+       the content's height is greater than the image's height */
+    background-attachment: fixed;
+
+    /* This is what makes the background image rescale based
+       on the container's size */
+    background-size: cover;
+
+    /* Set a background color that will be displayed
+       while the background image is loading */
+    background-color: #464646;
+
+
+    /* Full height */
+    height: 100%;
+}
+
+.intro-section {
+    padding-top: 100px;
+    color: #fff;
+}
+
+.intro-section p {
+    margin-bottom: 120px;
+}
+
+@media (min-width: 992px) {
+    .intro-section {
+        min-height: 100vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+}
+
+.text-shadow {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    margin-bottom: 0.5rem;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: inherit;
+}
+
+h1,
+.h1 {
+    font-size: 5.2rem;
+}
+
+h3,
+.h3 {
+    font-size: 3.75rem;
+}
+
+.text-400 {
+    font-weight: 400 !important;
 }
