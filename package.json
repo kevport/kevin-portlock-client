@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "animate.css": "^3.7.2",
-    "aws-amplify": "^1.2.4",
+    "aws-amplify": "^6.15.7",
     "react": "^16.11.0",
     "react-bootstrap": "^0.33.0",
     "react-bootstrap-dropdown-menu": "^1.1.15",
